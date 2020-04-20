@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookystufflocal.api", "bookystufflocal\bookystufflocal.api.csproj", "{ADDBC123-704E-472E-9A22-EAADDB2FB54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookystufflocal.domain", "bookystufflocal.domain\bookystufflocal.domain.csproj", "{1700A9EA-6E2A-4D0F-9536-562A664BC8B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDBC123-704E-472E-9A22-EAADDB2FB54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDBC123-704E-472E-9A22-EAADDB2FB54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDBC123-704E-472E-9A22-EAADDB2FB54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDBC123-704E-472E-9A22-EAADDB2FB54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1700A9EA-6E2A-4D0F-9536-562A664BC8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1700A9EA-6E2A-4D0F-9536-562A664BC8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1700A9EA-6E2A-4D0F-9536-562A664BC8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1700A9EA-6E2A-4D0F-9536-562A664BC8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CD0F089-7159-4E27-8664-A46300566C7E}
+	EndGlobalSection
+EndGlobal
