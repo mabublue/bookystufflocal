@@ -1,3 +1,4 @@
+using bookystufflocal.api.Helpers.Filters;
 using bookystufflocal.domain.Helpers;
 using bookystufflocal.domain.Queries.Library;
 using bookystufflocal.domain.RepositoryLayer.EntityFrameworkCore;
@@ -30,6 +31,8 @@ namespace bookystufflocal
             AddDb(services);
             AddMediator(services);
             services.AddControllers();
+            services.AddControllers(options =>
+                options.Filters.Add(new HttpResponseExceptionFilter()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
